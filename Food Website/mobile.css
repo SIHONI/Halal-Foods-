@@ -1,0 +1,128 @@
+/* ------------------home--------------------- */
+#navbar .logo{
+    margin-top: 5%;
+    max-width: 100px;
+    margin-left: 20px;
+    float: left;
+}
+#navbar .logo img{
+    max-width: 50%;
+    
+
+
+}
+#home-container h1{
+    color: rgb(195, 102, 48);
+    /* font-family: "lilita one", sans-serif; */
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 200px; */
+    margin-bottom: 20px;
+}
+#home-container p{
+    font-size: 13px;
+}
+#home-container button{
+    padding: 6px 12px;
+    font-size: 16px;
+    
+}
+/* ---------------------service--------------------- */
+#services-container {
+    height: auto;
+    margin-top:0px;
+    padding: 50px 20px 50px 20px;
+
+
+}
+#services-container .box{
+    padding-top: 20px;
+    margin: auto;
+    float: none;
+    max-width: 450px;
+
+    margin-bottom: 20px;
+}
+#services-container .box:hover{
+    transform: none;
+}
+/* ----------------about--------------------- */
+
+#about-section {
+    height: auto;
+    margin-top:90px;
+    
+}
+/* ---------------------customers--------------------- */
+
+#customers-container {
+    height: auto;
+    margin-top:0px;
+    padding: 50px 20px 50px 20px;
+
+}
+#customers-section .customer{
+    float: none;
+    margin: auto;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+#customers-section .customer:hover{
+    transform: none;
+
+}
+
+/* ---------------------about--------------------- */
+
+#about-section {
+    height: auto;
+    margin-top:0px;
+    
+
+}
+#about-container .about-text p{
+    font-size: 16px;
+    line-height: 22px;
+    word-break: break-all;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* ---------------------contact--------------------- */
+#contact-section{
+    height: auto;
+    margin-top:0px;
+    /* padding: 50px 20px 50px 20px; */
+    min-height: 80vh;
+}
+.contact-form input ,textarea{
+    width: 100%
+}
+.contact-form button{
+    padding: 6px 12px;
+    font-size: 16px;
+    margin: auto;
+    width: 40%;
+}
+.contact-info h2{
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.contact-info #insta{
+    margin-left: 15%;  
+    /* font-size: 30px;   */
+}
+.contact-info i{
+    font-size: 25px;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+/* ---------------------footer--------------------- */
+#footer p{
+    font-size: 12px;
+    text-align: center;
+    /* margin-top: 20px; */
+} 

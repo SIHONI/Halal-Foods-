@@ -1,0 +1,188 @@
+
+#navbar .logo img{
+    max-width: 70%;
+}
+#navbar ul{
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    float: none;
+    line-height: 0px;
+    position: fixed;
+    top: 90px;
+    left:-100%;
+    transition: .5s;
+
+}
+#navbar ul li{
+    display: block;
+    text-align: center;
+    /* border: 2px solid white;
+    o
+     */
+    line-height: 80px;
+    margin-left:0 ;
+  
+}
+
+#navbar ul li a{
+    margin: 0;
+}
+.checkbtn{
+    display: block;
+    color: white;
+}
+/* --------------home--------------------------- */
+#home-container h1{
+    color: rgb(195, 102, 48);
+    font-family: "lilita one", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 200px; */
+    margin-bottom: 20px;
+}
+
+#home-container p{
+    font-size: 15px;
+}
+#home-container button{
+    padding: 8px 16px;
+    font-size: 18px;
+    
+}
+/* ---------------------service--------------------- */
+#services-section{
+    height: auto;
+    /* background: none; */
+}
+.section-heading{
+    font-size: 35px;
+    padding-top: 10px;
+
+    /* color: saddlebrown; */
+}
+#services-container {
+    height: auto;
+    margin-top:0px;
+
+
+}
+
+#services-container .box{
+    padding-top: 20px;
+    margin: auto;
+    float: none;
+    max-width: 300px;
+    min-height: 150;
+    margin-bottom: 20px;
+}
+#services-container .box:hover{
+    transform: translateX(20px);
+}
+.box-heading{
+    font-size:25px ;
+    margin-top: 5px;
+}
+.box-para{
+    font-size: 15px;
+    margin-top: 5px;
+}
+/* ------------------customers--------------------- */
+#customers-section{
+    height: auto;
+    /* background: none; */
+}
+#customers-container {
+    height: auto;
+    margin-top:0px;
+}
+#customers-section .customer{
+    float: none;
+    margin: auto;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+#customers-section .customer:hover{
+    transform: translateX(20px);
+
+}
+
+/* ---------------------about--------------------- */ 
+#about-section{
+    height: auto;
+    /* background: none; */
+}
+#about-container{
+    height: auto;
+    margin-top:0px;
+}
+#about-container .about-text{
+    width: 100%;
+    float: none;
+    
+    /* border: 2px solid black; */
+    /* box-sizing: content-box; */
+}
+
+#about-container .about-text p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+#about-container .about-img{
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+/* --------coontact---------------- */
+#contact-section{
+    height: auto;
+    /* background: none; */
+}
+
+#contact-container{
+    height: auto;
+    margin-top:0px;
+    /* border: 2px solid black; */
+    padding-top: 0px;
+}
+#contact-container .contact-form{
+    width: 100%;
+    /* border: 2px solid gray; */
+    float: none;
+    border: none;
+    /* margin-top: 20px; */
+}
+.contact-form input ,textarea{
+    width: 80%
+}
+.contact-form button{
+    /* padding: 6px 12px; */
+    /* font-size: 16px; */
+    margin: auto;
+    width: 40%;
+}
+.contact-info{
+    width: 100%;
+    float: none;
+    margin-top: auto;
+    /* border: 2px solid black; */
+}
+
+
+.contact-info h2{
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.contact-info #insta{
+    margin-left: 25%;  
+    /* font-size: 30px;   */
+}
+.contact-info i{
+    font-size: 35px;
+    margin-right: 0;
+    margin-left: 30px;
+}

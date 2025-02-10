@@ -1,0 +1,119 @@
+#navbar .logo img{
+    max-width: 90%;
+    
+}
+#navbar ul li a{
+    font-size: 30px;
+
+}
+/* --------------------home---------------------- */
+
+#home-container h1{
+    font-size: 90px;
+    margin-bottom: 0;
+    margin-top: 10%;
+    /* line-height: 100vh; */
+}
+#home-container p{
+    font-size: 28px;
+    line-height: 40px;
+
+}
+
+#home-container button{
+    padding: 15px 30px;
+    font-size: 25px;
+}
+/* ------------------services--------------------- */
+.section-heading{
+    font-size: 65px;
+}
+#services-container{
+    /* border: 2px solid black; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 50px;
+    margin-top: 70px;
+}
+#services-container .box{
+    
+    max-width: 500px;
+    height: auto;
+}
+#services-container .box img{
+    max-width: 85%;
+    height: auto;
+}
+.box-heading {
+    font-family: "lilita one", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-para{
+    font-size: 28px;
+    text-align: justify;
+    margin-top: 20px;
+}
+/* ------------------customer---------------------  */
+#customers-container{
+    /* border: 2px solid black; */
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+    /* flex-wrap: wrap; */
+    
+}
+
+#customers-container .customer{
+    max-width: 500px;
+    height: auto;
+}
+/* ------------about----------------- */ 
+#about-container{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about-container .about-text p{
+    font-size: 37px;
+    font-family: "happy", sans-serif;
+    line-height: 40px;
+    font-weight: 600;
+}
+/* -------------contact----------------- */
+#contact-container{
+    /* border: 2px solid black; */
+    height: auto;
+
+    
+}
+
+.contact-form input ,textarea{
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+}
+.contact-form button{
+    padding: 13px 30px;
+    font-size: 22px;
+    min-width: 30%;
+}
+/* ------------------footer-----------------  */
+#footer p{
+    font-size: 30px;
+    /* margin-top: 30px; */
+    /* text-align: center; */
+}

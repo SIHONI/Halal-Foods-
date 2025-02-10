@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar{
+    /* border: 2px solid black; */
+    background:rgba(97, 38, 4, 0.9);
+    min-height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    
+    
+
+}
+
+#navbar .logo{
+    /* border: 1px solid wheat; */
+    margin-top: 1%;
+    height: auto;
+    max-width: 110px;
+    margin-left: 70px;
+    float: left;
+}
+
+#navbar .logo img{
+    max-width: 70%;
+    
+}
+
+#navbar ul{
+    list-style-type: none;
+    float: left;
+    /* display: inline-block; */
+    margin-left: 15%;
+    line-height: 30px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 100px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid white; */
+    font-family: "Lilita One", serif;
+    
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#navbar ul li a:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-radius: 10px;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+#check:checked ~ .checkbtn i::before{
+    content: "\f00d";
+}
+
+.checkbtn{
+    float: right;
+    /* display: block; */
+    /* border: 2px solid white; */
+    line-height: 90px;
+    font-size: 25px;
+    margin-right:2%;
+    display: none;
+}
+/* --------------home-------------------------- */
+#home-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid rgb(198, 194, 194); */
+    /* margin-top: 90px; */
+    /* position: relative; */
+    
+    width: 100%;
+    min-height: 100vh;
+    padding: 200px 0px 0px 0px;
+
+}
+
+#home-container h1{
+    color: rgb(195, 102, 48);
+    font-family: "lilita one", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    /* margin-top: 200px; */
+    margin-bottom: 20px;
+}
+
+#home-container p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#home-container button{
+    margin-top: 20px;
+    margin:20px auto 0 auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(195, 102, 48);
+    
+    /* color: rgb(221, 112, 18); */
+    color: white;
+    border:1px solid rgba(97, 38, 4, 0.9);
+    border-radius: 5px;
+    transition: .3s;
+}
+
+#home-container button:hover{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+/* ----------------------SERIVICES-------------------------- */
+#services-section{
+    /* background: white; */
+    /* border: 2px solid black; */
+    margin-top: 92px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(97, 38, 4, 0.9),rgba(97, 38, 4, 0.5)) ;
+}
+
+.section-heading{
+    font-family: "lilita one", sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+#services-container{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+#services-container .box{
+    /* border: 2px solid wheat; */
+    background-color: rgb(196, 153, 120);
+    border-radius: 10px;
+    max-width: 350px;
+    min-height: 350px;
+    padding:30px 20px ;
+
+    float: left;
+    margin-left: 50px;
+    transition: .5s;
+    cursor: pointer;
+
+
+
+}
+
+#services-container .box:hover{
+    transform: translateY(-10px);
+
+
+}
+
+#services-container .box img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 40%; */
+    height: 200px;
+}
+.box-heading {
+    font-family: "lilita one", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-para{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+/* --------------------Coustomers--------------------- */
+
+#customers-section{
+    margin-top: 80px;
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(97, 38, 4, 0.9),rgba(97, 38, 4, 0.5)) ;
+}
+#customers-container{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#customers-section .customer{
+
+    background-color: rgb(196, 153, 120);
+    border-radius: 10px;
+    max-width: 350px;
+    min-height: 350px;
+    padding:30px 20px ;
+    cursor: pointer;
+    float: left;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+#customers-section .customer:hover{
+    transform: translateY(-10px);
+
+}
+
+#customers-section .customer img{
+    max-width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: block;
+
+    height: 200px;
+}
+
+/* ------------------about--------------------- */
+#about-section{
+    margin-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(97, 38, 4, 0.9),rgba(97, 38, 4, 0.5)) ;
+}
+
+#about-container{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    width: 100%;
+    min-height: 600px;
+    padding: 50px;
+}
+
+#about-container .about-text{
+    /* border: 1px solid black; */
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+#about-container .about-text p{
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+#about-container .about-img{
+    /* border: 1px solid black; */
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height: auto;
+}
+
+#about-container .about-img img{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+/* ------------------contact--------------------- */
+
+#contact-section{
+    margin-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(97, 38, 4, 0.9),rgba(97, 38, 4, 0.5)) ;
+}
+
+#contact-container{
+    
+    margin-top: 50px;
+    max-width: 100%;
+    min-height: 600px;
+    padding: 50px;
+}
+
+#contact-container .contact-form{
+    /* margin-bottom: 20px; */
+    padding-top: 59px;
+    border-right: 4px solid rgb(90, 49, 15);
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    
+    /* background: linear-gradient(rgba(97, 38, 4, 0.9),rgba(97, 38, 4, 0.5)) ; */
+}
+.contact-form input ,textarea{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(196, 153, 120);
+    border: 0;
+    border-radius: 5px;
+    
+    outline: none;
+    color: black;
+    
+    
+}
+.contact-form textarea{
+    min-height: 200px;
+    resize: none;
+}
+.contact-form ::placeholder{
+    
+    color: black;
+}
+
+.contact-form button{
+    display: block;
+    min-width: 20%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(97, 38, 4, 0.5);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    transition:.3s;
+
+    
+}
+
+.contact-form button:hover{
+    background:rgba(97, 38, 4, 0.9);
+    cursor: pointer;
+    color: white;
+}
+.contact-info{
+    /* border: 2px solid black; */
+    width: 50%;
+    float: left;
+
+}
+.contact-info h2{
+    font-size: 40px;
+    /* text-align: center; */
+    margin: 20px;
+    font-family: "lilita one", sans-serif;
+}
+.contact-info i{
+    margin-right: 20px;
+    /* text-align: center; */
+    
+    font-size: 50px;
+    margin-left:50px;
+    margin-top: 30px;
+    /* display: inline-block; */
+    transition: .3s;
+}
+.contact-info i:hover{
+    text-shadow: 0px 0px 10px rgba(97, 38, 4, 0.9), 0 0 10px rgba(97, 38, 4, 0.9),0 0 10px rgba(97, 38, 4, 0.9),0 0 10px rgba(97, 38, 4, 0.9);
+    color: black;
+    cursor: pointer;
+}
+#footer{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    width: 100%;
+    min-height: auto;
+}
